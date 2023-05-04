@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body{
+	background: #cccccc;
+}
+h1{
+	text-align: center;
+}
+.playlist{
+	background: #ffff;
+    border-radius: 5px;
+    padding: 20px 0;
+    border: 1px solid #585757;
+}
+.playlist ul{
+    list-style: none;
+}
+.playlist a{
+	color: inherit;
+   text-decoration: none;
+   color: #585757;
+   font: 1em sans-serif;
+}
+h3{
+	text-align: center;
+    padding-top: 0;
+    margin-top: 0px;
+}
+.items{
+    width: 300px;
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
