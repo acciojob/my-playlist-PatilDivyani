@@ -5,16 +5,16 @@ body{
 h1{
 	text-align: center;
 }
-.playlist{
+.player_one{
 	background: white;
     border-radius: 5px;
     padding: 20px 0;
     border: 1px solid #585757;
 }
-.playlist ul{
+.player_one ul{
     list-style: none;
 }
-.playlist a{
+.player_one a{
 	color: inherit;
    text-decoration: none;
    color: #585757;
@@ -25,7 +25,7 @@ h2 , h3{
     padding-top: 0;
     margin-top: 0px;
 }
-.items{
+.player_two{
     width: 300px;
     background: white;
     border-radius: 5px;
